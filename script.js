@@ -7,7 +7,7 @@
     min_rotation = 6 * min;
     sec_rotation = 6 * sec;
     
-    hour.style.transform = `rotate(${hr_rotation}deg)`;
-    minute.style.transform = `rotate(${min_rotation}deg)`;
+    hour.style.transform = `rotate(${hr_rotation+90}deg)`;
+    minute.style.transform = `rotate(${min_rotation+90}deg)`;
     second.style.transform = `rotate(${sec_rotation}deg)`;
     }, 1000);
